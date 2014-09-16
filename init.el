@@ -19,3 +19,8 @@
 
 ;; Set theme
 (load-theme 'solarized-light t)
+
+;; Show whitespace
+(require 'whitespace)
+(setq whitespace-style '(face empty tabs trailing))
+(global-whitespace-mode t)
