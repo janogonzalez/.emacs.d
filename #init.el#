@@ -27,3 +27,4 @@
 
 ;; Less annoying questions
 (defalias 'yes-or-no-p 'y-or-n-p)
+
