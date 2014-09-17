@@ -12,7 +12,9 @@
 (defvar my-packages '(better-defaults
                       color-theme-solarized
                       fill-column-indicator
-                      linum-relative))
+                      linum-relative
+                      markdown-mode
+                      scala-mode2))
 
 ;; Install packages
 (dolist (p my-packages)
