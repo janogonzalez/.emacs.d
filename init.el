@@ -11,7 +11,8 @@
 ;; List of packages to install
 (defvar my-packages '(better-defaults
                       color-theme-solarized
-                      fill-column-indicator))
+                      fill-column-indicator
+                      linum-relative))
 
 ;; Install packages
 (dolist (p my-packages)
@@ -35,3 +36,10 @@
   (lambda () (fci-mode 1)))
 (global-fci-mode 1)
 
+;; Enable relative line numbers
+(require 'linum-relative)
+(global-linum-mode t)
+
+;; Show current line and column numbers
+(setq column-number-mode t)
+(setq line-number-mode t)
