@@ -45,3 +45,7 @@
 ;; Show current line and column numbers
 (setq column-number-mode t)
 (setq line-number-mode t)
+
+;; Disable welcome screen and scratch message
+(setq inhibit-splash-screen t)
+(setq initial-scratch-message nil)
