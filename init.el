@@ -10,7 +10,8 @@
 
 ;; List of packages to install
 (defvar my-packages '(better-defaults
-                      color-theme-solarized))
+                      color-theme-solarized
+                      fill-column-indicator))
 
 ;; Install packages
 (dolist (p my-packages)
@@ -27,3 +28,10 @@
 
 ;; Less annoying questions
 (defalias 'yes-or-no-p 'y-or-n-p)
+
+;; Show column 80
+(require 'fill-column-indicator)
+(define-globalized-minor-mode global-fci-mode fci-mode
+  (lambda () (fci-mode 1)))
+(global-fci-mode 1)
+
