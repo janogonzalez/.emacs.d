@@ -41,6 +41,7 @@
 ;; Enable relative line numbers
 (require 'linum-relative)
 (global-linum-mode t)
+(setq linum-relative-current-symbol "")
 
 ;; Show current line and column numbers
 (setq column-number-mode t)
