@@ -50,3 +50,10 @@
 ;; Disable welcome screen and scratch message
 (setq inhibit-splash-screen t)
 (setq initial-scratch-message nil)
+
+;; Settings for GUI
+(if (display-graphic-p)
+    (progn
+      (add-to-list 'default-frame-alist '(font . "Menlo  Regular 14"))
+      (set-face-attribute 'default t :font "Menlo Regular 14")
+      (set-frame-parameter nil 'fullscreen 'fullboth)))
