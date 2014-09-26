@@ -14,6 +14,7 @@
                       fill-column-indicator
                       linum-relative
                       markdown-mode
+                      rust-mode
                       scala-mode2))
 
 ;; Install packages

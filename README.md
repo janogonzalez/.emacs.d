@@ -14,6 +14,7 @@ Solarized theme for the terminal, is to run
 * [fill-column-indicator][fci]: I use it to highlight column 80.
 * [linum-relative][linum-relative]: Show relative line numbers.
 * [markdown-mode][markdown-mode]: Work with Markdown files.
+* [rust-mode][rust-mode]: Work with Rust files.
 * [scala-mode2][scala-mode2]: Work with Scala files.
 
 [better-defaults]: https://github.com/technomancy/better-defaults
@@ -21,4 +22,5 @@ Solarized theme for the terminal, is to run
 [fci]: https://github.com/alpaker/Fill-Column-Indicator
 [linum-relative]: https://github.com/coldnew/linum-relative
 [markdown-mode]: http://jblevins.org/git/markdown-mode.git/
+[rust-mode]: https://github.com/rust-lang/rust/tree/master/src/etc/emacs
 [scala-mode2]: https://github.com/hvesalai/scala-mode2
