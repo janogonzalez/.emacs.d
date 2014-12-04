@@ -25,6 +25,10 @@
 ;; Set theme
 (load-theme 'solarized-light t)
 
+;; No backups or autosave
+(setq auto-save-default nil)
+(setq make-backup-files nil)
+
 ;; Show whitespace
 (require 'whitespace)
 (setq whitespace-style '(face empty tabs trailing))
