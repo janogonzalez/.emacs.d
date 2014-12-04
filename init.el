@@ -11,11 +11,11 @@
 ;; List of packages to install
 (defvar my-packages '(better-defaults
                       color-theme-solarized
+                      ensime
                       fill-column-indicator
                       linum-relative
-                      markdown-mode
                       rust-mode
-                      scala-mode2))
+                      markdown-mode))
 
 ;; Install packages
 (dolist (p my-packages)
@@ -51,6 +51,10 @@
 ;; Disable welcome screen and scratch message
 (setq inhibit-splash-screen t)
 (setq initial-scratch-message nil)
+
+;; Enable Ensime for Scala
+(require 'ensime)
+(add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
 
 ;; Settings for GUI
 (if (display-graphic-p)
