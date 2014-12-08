@@ -14,8 +14,8 @@
                       ensime
                       fill-column-indicator
                       linum-relative
-                      rust-mode
-                      markdown-mode))
+                      markdown-mode
+                      rust-mode))
 
 ;; Install packages
 (dolist (p my-packages)
